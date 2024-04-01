@@ -30,7 +30,7 @@ chatbot = Chat(pairs, reflections)
 chat_history = []
 
 # Streamlit UI
-st.image("C:/Users/DIVINE FAVUR/Pictures/ealycode.jpeg", width=100) 
+st.image("https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.nigeriajob.com%2Fsites%2Fnigeriajob.com%2Ffiles%2Fstyles%2Fmedium%2Fpublic%2Flogo%2Fearly_code.png%3Fitok%3DEidefLyy&tbnid=bppcsTeywKXEPM&vet=12ahUKEwj-_birkaGFAxXIybsIHZL5DpkQMygBegQIARBQ..i&imgrefurl=https%3A%2F%2Fwww.nigeriajob.com%2Frecruiter%2F88818&docid=YsZ4_Ddj5fHJqM&w=220&h=220&q=download%20earlycode%20image&ved=2ahUKEwj-_birkaGFAxXIybsIHZL5DpkQMygBegQIARBQ", width=100) 
 st.title("EARLYCODE CHAT-BOT")
 
 # Allow users to set up profiles
