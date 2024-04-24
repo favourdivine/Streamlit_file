@@ -7,7 +7,7 @@ st.write(table)
 st.text("Streamlit is used by data science for them to create  visualization app in datascience.")
 
 ## Add visualizations to streamlit
-heatmap_fig = px.imshow(table_values, color_continuous_scale="Viridis")
+heatmap_fig = px.imshow(table.values, color_continuous_scale="Viridis")
 st.plotly_chart(heatmap_fig, use_container_width=True)
 
 # pie chart
