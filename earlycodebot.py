@@ -10,7 +10,7 @@ nltk.download("averaged_perceptron_tagger")
 # nltk.data.path.append(r"C:\Users\DIVINE FAVUR\Documents\nltk\punkt")
 
 # Define responses for the chatbot
-patterns = [r"hi|hello|hey|what's up",
+patterns = [r"hi|hello|hey|what's up|how you doing",
     r"how are you|how's it going",
     r"what is Earlycode|Earlycode",
     r"bye|goodbye",
@@ -204,7 +204,7 @@ For more information on the courses, you can visit our website [Earlycode](https
             response="Office essentials typically refer to software tools commonly used in office environments for various tasks such as document creation, data analysis, presentations, communication, and organization"
         elif "ui" in noun_str.lower():
             response="UI (User Interface) and UX (User Experience) design are two aspects of creating digital products like websites, mobile apps, or software that focus on how users interact with and experience the product.UI design deals with the look and feel of the product. It involves designing the visual elements that users interact with, such as buttons, icons, colors, fonts, and overall layout. UI designers strive to create interfaces that are visually appealing, intuitive to use, and consistent across different screens or pages."
-        elif "thank you":
+        elif "thank you" in noun_str.lower():
             response="You're welcome. I'm happy to assist you."
     
     
