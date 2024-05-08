@@ -5,6 +5,7 @@ from nltk.chat.util import Chat, reflections
 # Download NLTK resources
 import nltk
 nltk.download("punkt")
+nltk.download("averaged_perceptron_tagger")
 # Use double backslashes
 # nltk.data.path.append(r"C:\Users\DIVINE FAVUR\Documents\nltk\punkt")
 
